@@ -19,7 +19,7 @@ describe('useCounter', () => {
     });
 
     expect(result.current.count).toBe(1);
-  });
+  });  
 
   it('should increment count by custom val when setVal is used', () => {
     const { result } = renderHook(() => useCounter());
